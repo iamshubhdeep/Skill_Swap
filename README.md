@@ -242,6 +242,9 @@ npm run build
 cd backend
 npm start
 ```
+Demo Image of Homepage:
+![WhatsApp Image 2025-07-12 at 16 46 05_8c4add33](https://github.com/user-attachments/assets/21ecb765-5e0c-451c-ada5-813d206720c5)
+
 
 ## Contributing
 
@@ -266,5 +269,5 @@ For support, email support@skillswap.com or join our Slack channel.
 - [ ] Mobile app development
 - [ ] Payment integration for premium features
 - [ ] Advanced matching algorithms
-- [ ] Group sessions & workshops
+- [ ] Group skill sessions
 - [ ] Skill certification system
