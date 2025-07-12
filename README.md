@@ -266,5 +266,5 @@ For support, email support@skillswap.com or join our Slack channel.
 - [ ] Mobile app development
 - [ ] Payment integration for premium features
 - [ ] Advanced matching algorithms
-- [ ] Group skill sessions
+- [ ] Group sessions & workshops
 - [ ] Skill certification system
