@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "md03xvhbzdyxvkxmt3r",
+    "requesterId": "507f1f77bcf86cd799439011",
+    "providerId": "507f1f77bcf86cd799439012",
+    "requesterOfferedSkill": "Test Skill",
+    "requesterWantedSkill": "JavaScript",
+    "message": "I'd like to swap my Test Skill skills for your JavaScript skills.",
+    "status": "pending",
+    "createdAt": "2025-07-12T10:33:19.775Z",
+    "updatedAt": "2025-07-12T10:33:19.775Z"
+  },
+  {
+    "_id": "md03y8c2uyhb0u4e37r",
+    "requesterId": "md024pvxw4s4p99u06i",
+    "providerId": "507f1f77bcf86cd799439011",
+    "requesterOfferedSkill": "python",
+    "requesterWantedSkill": "Test Skill",
+    "message": "I'd like to swap my python skills for your Test Skill skills.",
+    "status": "pending",
+    "createdAt": "2025-07-12T10:33:36.434Z",
+    "updatedAt": "2025-07-12T10:33:36.434Z"
+  },
+  {
+    "_id": "md0428k2ekwhyi54toc",
+    "requesterId": "md04188hq9wthau7tws",
+    "providerId": "md024pvxw4s4p99u06i",
+    "requesterOfferedSkill": "Java",
+    "requesterWantedSkill": "python",
+    "message": "I'd like to swap my Java skills for your python skills.",
+    "status": "pending",
+    "createdAt": "2025-07-12T10:36:43.346Z",
+    "updatedAt": "2025-07-12T10:36:43.346Z"
+  }
+]

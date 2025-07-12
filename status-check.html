@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Server Status Check</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .status { padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .success { background-color: #d4edda; color: #155724; }
+        .error { background-color: #f8d7da; color: #721c24; }
+        .loading { background-color: #fff3cd; color: #856404; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Server Status Check</h1>
+    
+    <div id="backend-status" class="status loading">
+        🔄 Checking Backend Server...
+    </div>
+    
+    <div id="frontend-status" class="status loading">
+        🔄 Checking Frontend Server...
+    </div>
+
+    <div id="api-test" class="status loading">
+        🔄 Testing API Endpoints...
+    </div>
+
+    <script>
+        async function checkBackend() {
+            const statusDiv = document.getElementById('backend-status');
+            try {
+                const response = await fetch('http://localhost:5000/api/health');
+                const data = await response.json();
+                statusDiv.className = 'status success';
+                statusDiv.innerHTML = `✅ Backend Server: ${data.message}`;
+            } catch (error) {
+                statusDiv.className = 'status error';
+                statusDiv.innerHTML = `❌ Backend Server: Not responding (${error.message})`;
+            }
+        }
+
+        async function checkFrontend() {
+            const statusDiv = document.getElementById('frontend-status');
+            try {
+                const response = await fetch('http://localhost:3000');
+                if (response.ok) {
+                    statusDiv.className = 'status success';
+                    statusDiv.innerHTML = '✅ Frontend Server: Running on port 3000';
+                } else {
+                    throw new Error('Not OK response');
+                }
+            } catch (error) {
+                statusDiv.className = 'status error';
+                statusDiv.innerHTML = `❌ Frontend Server: Not responding (${error.message})`;
+            }
+        }
+
+        async function testAPI() {
+            const statusDiv = document.getElementById('api-test');
+            try {
+                // Test registration endpoint
+                const response = await fetch('http://localhost:5000/api/auth/register', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        name: 'Test',
+                        email: 'test@test.com',
+                        password: 'test123'
+                    })
+                });
+                
+                statusDiv.className = 'status success';
+                statusDiv.innerHTML = `✅ API Test: Registration endpoint responding (Status: ${response.status})`;
+            } catch (error) {
+                statusDiv.className = 'status error';
+                statusDiv.innerHTML = `❌ API Test: Failed (${error.message})`;
+            }
+        }
+
+        // Run all checks
+        checkBackend();
+        checkFrontend();
+        testAPI();
+    </script>
+</body>
+</html>

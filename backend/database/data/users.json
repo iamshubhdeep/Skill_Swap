@@ -1,0 +1,167 @@
+[
+  {
+    "_id": "507f1f77bcf86cd799439011",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "$2b$10$Bd0O3gw6dX17PZBs0iTqQOeTmnRSA1sPmOGrUGD5Aj5Ant8BplvqG",
+    "isAdmin": false,
+    "skillsOffered": [
+      {
+        "name": "Test Skill",
+        "level": "Beginner",
+        "description": "Test description"
+      }
+    ],
+    "skillsWanted": [
+      {
+        "name": "Machine Learning",
+        "level": "Beginner",
+        "description": "Want to learn ML basics"
+      }
+    ],
+    "bio": "Full-stack developer with 5 years experience",
+    "location": "San Francisco, CA",
+    "rating": 4.8,
+    "completedSwaps": 12,
+    "isPublic": true,
+    "isBanned": false,
+    "createdAt": "2025-07-12T09:21:10.605Z",
+    "lastActive": "2025-07-12T10:31:33.306Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439012",
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "password": "$2b$10$RgrV90prnGbqdhw.KR11KO4RLS3efGOgfbgTtM8SEAU5XtGp90zcG",
+    "isAdmin": true,
+    "skillsOffered": [
+      {
+        "name": "UI/UX Design",
+        "level": "Expert",
+        "description": "Figma, Adobe Creative Suite"
+      },
+      {
+        "name": "Product Management",
+        "level": "Advanced",
+        "description": "Agile, Scrum"
+      }
+    ],
+    "skillsWanted": [
+      {
+        "name": "React Native",
+        "level": "Intermediate",
+        "description": "Mobile app development"
+      }
+    ],
+    "bio": "Senior Product Designer with focus on user experience",
+    "location": "New York, NY",
+    "rating": 4.9,
+    "completedSwaps": 25,
+    "isPublic": true,
+    "isBanned": false,
+    "createdAt": "2025-07-12T09:21:10.674Z",
+    "lastActive": "2025-07-12T09:21:10.674Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439013",
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "password": "$2b$10$ROyqRmom1rkbFawrHlJEOO0tNUYqJPVjpuq3lie/h53md0J5l/K0m",
+    "isAdmin": false,
+    "skillsOffered": [
+      {
+        "name": "Data Science",
+        "level": "Expert",
+        "description": "Python, R, Machine Learning"
+      },
+      {
+        "name": "Statistics",
+        "level": "Advanced",
+        "description": "Statistical analysis and modeling"
+      }
+    ],
+    "skillsWanted": [
+      {
+        "name": "Cloud Computing",
+        "level": "Intermediate",
+        "description": "AWS, Azure"
+      },
+      {
+        "name": "DevOps",
+        "level": "Beginner",
+        "description": "CI/CD, Docker"
+      }
+    ],
+    "bio": "Data scientist passionate about machine learning and analytics",
+    "location": "Seattle, WA",
+    "rating": 4.7,
+    "completedSwaps": 8,
+    "isPublic": true,
+    "isBanned": false,
+    "createdAt": "2025-07-12T09:21:10.737Z",
+    "lastActive": "2025-07-12T09:21:10.737Z"
+  },
+  {
+    "_id": "md024pvxw4s4p99u06i",
+    "name": "sagar kumar sahu",
+    "email": "sagar27sahu@gmail.com",
+    "password": "$2b$10$ttR34Walr6UW7p4/gRSt7erHChf3DlSCY2KFpstu5Qb8M8vtdZ2UC",
+    "isAdmin": false,
+    "skillsOffered": [
+      {
+        "name": "python",
+        "level": "Beginner",
+        "description": ""
+      }
+    ],
+    "skillsWanted": [
+      {
+        "name": "java",
+        "level": "Beginner",
+        "description": ""
+      }
+    ],
+    "bio": "",
+    "location": "",
+    "rating": 0,
+    "completedSwaps": 0,
+    "isPublic": true,
+    "isBanned": false,
+    "createdAt": "2025-07-12T09:42:39.968Z",
+    "lastActive": "2025-07-12T10:34:47.592Z"
+  },
+  {
+    "_id": "md04188hq9wthau7tws",
+    "name": "nugan",
+    "email": "nigamlenka10@gmail.com",
+    "password": "$2b$10$5.FuE4OXfvz9LZxT1Qj6a.1quMOEpsGZfUGoGcOdPHXmCP0li0hza",
+    "isAdmin": false,
+    "skillsOffered": [
+      {
+        "name": "Java",
+        "level": "Beginner",
+        "description": ""
+      }
+    ],
+    "skillsWanted": [
+      {
+        "name": "Java",
+        "level": "Beginner",
+        "description": ""
+      },
+      {
+        "name": "python",
+        "level": "Beginner",
+        "description": ""
+      }
+    ],
+    "bio": "",
+    "location": "",
+    "rating": 0,
+    "completedSwaps": 0,
+    "isPublic": true,
+    "isBanned": false,
+    "createdAt": "2025-07-12T10:35:56.361Z",
+    "lastActive": "2025-07-12T10:36:32.756Z"
+  }
+]
